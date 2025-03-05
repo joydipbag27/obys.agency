@@ -1,4 +1,5 @@
 
+
 @font-face{
   font-family: "Plain";
   src: url(assets/fonts/plain-regular-webfont.ttf)
@@ -1123,6 +1124,8 @@ input[type]:checked ~ span.middle {
     gap: 10vw;
   }
 }
+
+
 @media (max-width: 1350px) {
   .p6-flex{
     gap: 5vw;
@@ -1424,10 +1427,6 @@ input[type]:checked ~ span.middle {
     font-size: 5vw;
   }
 
-
-  .page1{
-    height: 80vh;
-  }
   .p1-line {
     padding: 0 3vw;
   }
@@ -1524,10 +1523,11 @@ input[type]:checked ~ span.middle {
     margin-left: 0%;
     font-size: 2vw;
   }
-  .page1 {
-    height: 80vw;
+  .scroll-text h4{
+    display: none;
   }
 }
+
 
 @media (max-width: 600px) {
   .page2{
@@ -1535,9 +1535,6 @@ input[type]:checked ~ span.middle {
     width: 100%;
     background-color: #151515;
     padding-top: 0%;
-  }
-  .page1 {
-    height: 80vw;
   }
   .video-container .video-cursor{
     height: 4rem;
@@ -1549,6 +1546,8 @@ input[type]:checked ~ span.middle {
     font-size: 4vw;
   }
 }
+
+
 @media (max-width: 510px) {
   .page5{
     min-height: 70vw;
@@ -1566,5 +1565,14 @@ input[type]:checked ~ span.middle {
   }
   .allProjects h4{
     font-size: 3.5vw;
+  }
+  .page1{
+    height: 60vh;
+  }
+}
+
+@media (max-width: 376px){
+  .page1{
+    height: 50vh;
   }
 }
