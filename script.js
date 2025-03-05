@@ -47,6 +47,9 @@ function loaderPageAnimation() {
   tl.to("body", {
     overflowY: "hidden",
   });
+  tl.to('main',{
+    opacity: 0
+  })
   tl.from(".line h1", {
     opacity: 0,
     y: 100,
@@ -84,6 +87,9 @@ function loaderPageAnimation() {
   tl.from("nav", {
     opacity: 0,
   });
+  tl.to('main',{
+    opacity: 1
+  })
 
   // page1
 
